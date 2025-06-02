@@ -1,0 +1,70 @@
+/* src/components/Blog/ArticleCard.css */
+
+.article-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px; 
+  margin: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-card-image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  display: block;
+}
+
+.article-card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+}
+
+.article-card-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.article-card-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.article-card-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  align-self: flex-start; 
+  transition: background-color 0.2s ease;
+  margin-top: auto; 
+}
+
+.article-card-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .article-card {
+    margin: 10px 0;
+    max-width: 90%; 
+  }
+}

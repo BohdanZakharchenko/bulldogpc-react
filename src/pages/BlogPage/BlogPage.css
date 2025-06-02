@@ -1,0 +1,39 @@
+/* src/pages/BlogPage/BlogPage.css */
+
+.blog-page-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog-page-container h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.articles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Центрує картки в рядку */
+  gap: 30px; /* Відступ між картками */
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .blog-page-container {
+    padding: 20px 10px;
+  }
+
+  .blog-page-container h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .articles-grid {
+    flex-direction: column; /* Картки в стовпчик на мобільних */
+    align-items: center; /* Центрує картки по горизонталі */
+    gap: 20px;
+  }
+}

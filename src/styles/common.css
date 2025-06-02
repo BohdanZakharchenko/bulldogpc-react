@@ -1,0 +1,52 @@
+body{
+    font-family: 'Lato';
+
+}
+
+.conteiner {
+  max-width: 100%; 
+  width: 100%;       
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+.app-main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  box-sizing: border-box;
+  background-color: #f5f0f0;
+
+  
+}
+
+
+@media (min-width: 1440px) {
+  .conteiner {
+    width: 1440px; 
+    padding: 0 30px;
+  }
+}
+
+html, body, #root {
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+.app-main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+}
+

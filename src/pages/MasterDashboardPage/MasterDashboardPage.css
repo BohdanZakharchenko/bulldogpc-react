@@ -1,0 +1,37 @@
+/* src/pages/MasterDashboardPage.css */
+
+.master-dashboard-container {
+    padding: 20px;
+     /* Максимальна ширина для дашборду */
+    margin: 0 auto; /* Центруємо на сторінці */
+    box-sizing: border-box;
+    width: 1000px;
+}
+
+.master-dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2.5em;
+}
+
+/* Можливо, тут знадобляться додаткові стилі, якщо ви хочете розмістити списки поруч */
+/* .master-dashboard-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+/* .master-dashboard-container > div {
+    flex: 1;
+    min-width: 300px;
+} */
+
+@media (max-width: 768px) {
+    .master-dashboard-container {
+        padding: 15px;
+    }
+    .master-dashboard-container h1 {
+        font-size: 2em;
+    }
+}

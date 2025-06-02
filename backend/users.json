@@ -1,0 +1,31 @@
+[
+  
+  {
+    "id": "3546e4e1-b491-4710-8043-6a311d08af9a",
+    "username": "master",
+    "email": "master1@gmail.com",
+    "password": "$2b$10$4wJlqSqWlA7HQoZFBNlK8OHaG/3.8rP3sfvLDyWKr03RQW9rOzJKq",
+    "role": "master",
+    "phone": "+38 096 370 82 38",
+    "description": "test master",
+    "createdAt": "2025-05-22T12:16:25.989Z"
+  },
+  {
+    "id": "2d32e3a8-cd99-4786-8f8d-a2ad59512363",
+    "username": "user1",
+    "email": "user1@gmail.com",
+    "password": "$2b$10$CB5/tvj5DK55UXqce3GEaOuaQeaDTc4OtMql/u0sH9/Arm8NUR6sC",
+    "role": "user",
+    "phone": "+380963708222",
+    "address": "Вул.Набережна ім.Стефаника, буд 30",
+    "createdAt": "2025-05-23T18:09:09.602Z"
+  },
+  {
+    "id": "3a8d40ed-4f75-45f6-89a0-0b8f74b5a9dc",
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$10$b81tHLyuZ97R/Xf9u848SONs1i27X4N95M8FMfLDFESpBGj7U1Vi6",
+    "role": "admin",
+    "createdAt": "2025-05-30T19:14:32.479Z"
+  }
+]

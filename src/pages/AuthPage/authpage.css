@@ -1,0 +1,76 @@
+.auth-page {
+  
+    display: flex;
+    flex-direction: column;
+ 
+    padding: 0 0;
+    width: 100%;
+}
+
+.auth-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.auth-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;      /* Збільшили максимальну ширину */
+    width: 100%;            /* Ширина буде 90% від батьківського контейнера */
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    
+}
+
+.auth-toggle {
+    margin-top: 20px;
+    color: #007bff;
+    cursor: pointer;
+    text-align: center;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+.auth-toggle:hover {
+    color: #0056b3;
+}
+
+/* === Адаптивність для мобільних === */
+@media (max-width: 600px) {
+    .auth-content {
+        padding: 20px 15px;
+    }
+    .auth-form-wrapper {
+        max-width: 100%;   /* На планшетах і менше займати всю ширину */
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: none;
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 480px) {
+    .auth-form-wrapper {
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .auth-toggle {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .auth-content {
+        padding: 15px 10px;
+    }
+}

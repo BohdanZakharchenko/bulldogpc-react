@@ -1,0 +1,89 @@
+.header {
+  padding-top: 0 !important; /* Використовуйте !important для підвищення пріоритету */
+}
+
+.header.shrink {
+  padding-top: 10px !important; /* Залиште або змініть для стиснутого стану */
+}
+
+
+.home-page {
+  
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+   width: 100%;
+    padding: 0 20px;
+    border-radius: 12px;
+  
+}
+
+.home-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* <--- ЗМІНІТЬ ЦЕ! */
+  justify-content: center; /* Центрує вміст по вертикалі, якщо є зайвий простір */
+  align-items: center;   /* Центрує вміст по горизонталі */
+  padding: 0 20px;
+  gap: 30px; /* Додайте відступ між компонентами, якщо потрібно */
+}
+
+.auth-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;      /* Збільшили максимальну ширину */
+    width: 100%;            /* Ширина буде 90% від батьківського контейнера */
+    padding: 20px;
+   
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.auth-toggle {
+    margin-top: 20px;
+    color: #007bff;
+    cursor: pointer;
+    text-align: center;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+.auth-toggle:hover {
+    color: #0056b3;
+}
+
+/* === Адаптивність для мобільних === */
+@media (max-width: 768px) {
+    .auth-content {
+        padding: 20px 15px;
+    }
+    .auth-form-wrapper {
+        max-width: 100%;   /* На планшетах і менше займати всю ширину */
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: none;
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 480px) {
+    .auth-form-wrapper {
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .auth-toggle {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .auth-content {
+        padding: 15px 10px;
+    }
+}

@@ -1,0 +1,176 @@
+
+.logoDescription {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 30px; 
+
+  
+  max-width: 1720px;
+  width: 1000px;
+  height: 350px;
+  margin: 0;
+  padding: 0 30px 0 50px; 
+
+
+  overflow: hidden; 
+  position: relative; 
+
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+
+.logoWrapper {
+  flex-shrink: 0; 
+  order: 3; 
+}
+
+
+.logo {
+  width: 250px; 
+  height: auto;
+  display: block;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+.descriptionWrapper {
+  flex-grow: 1; 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 2; 
+  text-align: right; 
+} 
+
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-weight: 700;
+}
+
+
+.description {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #555;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: 30;
+ 
+}
+
+.btngoFix {
+  padding: 10px 18px;
+  background-color: black;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+
+  
+  position: absolute;
+  left: 50px; 
+  bottom: 30px; 
+
+  
+  order: unset;
+  margin: 0;
+  right: auto;
+  top: auto;
+
+  z-index: 10;
+}
+
+
+.btngoFix:hover {
+  background-color: #888888;
+}
+
+
+@media (max-width: 768px) {
+  .logoDescription {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    gap: 20px;
+    
+    padding: 30px 15px; 
+    width: 90%;
+    max-width: none;
+    position: relative;
+    justify-content: center; 
+  }
+
+  
+  .logoWrapper {
+    order: unset;
+  }
+  .descriptionWrapper {
+    order: unset;
+    text-align: center;
+  }
+
+  .btngoFix {
+    position: relative;
+    order: unset;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  .logo {
+    width: 100px;
+  }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    white-space: normal;
+  }
+  .description {
+    font-size: 1.1rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .logoDescription {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px; 
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .logo {
+    width: 80px;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  .description {
+    font-size: 0.95rem;
+  }
+}

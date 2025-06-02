@@ -1,0 +1,78 @@
+/* auth.css */
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background-color: #7fffd4;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 10, 10, 0.13);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  width: 100%;           
+  max-width: 1000px;      
+  box-sizing: border-box; 
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type = "tel"],
+select,
+textarea  {
+  padding: 12px 15px;
+  border: 1px solid #959595;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+
+
+input:focus {
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.367);
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form_logo {
+  width: 200px;
+  height: 200px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1em;
+    align-self: flex-start; 
+}
