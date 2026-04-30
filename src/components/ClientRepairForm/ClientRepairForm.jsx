@@ -169,7 +169,7 @@ function ClientRepairForm() {
                 required
             ></textarea>
 
-            <label htmlFor="issueImage">Зображення проблеми (необов'язково):</label>
+            <label htmlFor="issueImage">Зображення (необов'язково):</label>
             <input
                 type="file"
                 id="issueImage"
