@@ -21,10 +21,7 @@ function Header() {
   };
 
   // Функція, яка закриває бургер-меню і меню майстра при навігації
-  const handleNavLinkClick = () => {
-    setIsOpen(false);
-    setIsMasterMenuOpen(false); 
-  };
+  
 
   return (
     <header className={`header ${isShrink ? 'shrink' : ''}`}>
