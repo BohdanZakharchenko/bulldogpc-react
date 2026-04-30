@@ -139,7 +139,7 @@ function ClientRepairForm() {
                 <option value="">Виберіть тип пристрою</option>
                 <option value="ПК">Настільний ПК</option>
                 <option value="Ноутбук">Ноутбук</option>
-                <option value="Монітор">Монітор</option>
+                <option value="Монітор">М</option>
                 <option value="Планшет">Планшет</option>
                 <option value="Інше">Інше</option>
             </select>
