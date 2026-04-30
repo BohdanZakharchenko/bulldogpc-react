@@ -136,7 +136,7 @@ function ClientRepairForm() {
                 onChange={handleChange}
                 required
             >
-                <option value="">Виберіть щось </option>
+                <option value="">Виберіть щось + </option>
                 <option value="ПК">Настільний ПК</option>
                 <option value="Ноутбук">Ноутбук</option>
                 <option value="Монітор">Монітор</option>
