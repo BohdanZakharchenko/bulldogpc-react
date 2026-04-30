@@ -136,11 +136,11 @@ function ClientRepairForm() {
                 onChange={handleChange}
                 required
             >
-<<<<<<< HEAD
-                <option value="">Виберіть щось + </option>
-=======
+
+            
+
                 <option value="">Виберіть тип пристрою+++</option>
->>>>>>> e6add74d0348e2e526d87a078382430cadd9673d
+
                 <option value="ПК">Настільний ПК</option>
                 <option value="Ноутбук">Ноутбук</option>
                 <option value="Монітор">М</option>
