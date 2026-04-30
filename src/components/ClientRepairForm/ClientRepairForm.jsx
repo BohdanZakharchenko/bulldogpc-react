@@ -136,7 +136,11 @@ function ClientRepairForm() {
                 onChange={handleChange}
                 required
             >
+
+            
+
                 <option value="">Виберіть тип пристрою+++</option>
+
                 <option value="ПК">Настільний ПК</option>
                 <option value="Ноутбук">Ноутбук</option>
                 <option value="Монітор">М</option>
